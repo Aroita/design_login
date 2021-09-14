@@ -1,0 +1,54 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    /*background: linear-gradient(#7209b7, #3f37c0); */
+}
+
+.content {
+    margin: 50px auto;
+    width: 400px;
+    padding: 30px;
+    /*background: rgba(212, 19, 148, 0.51); */
+    background: linear-gradient(#b709b7, #3f37c0);
+    border-radius: 12px;
+    
+   
+
+}
+
+.content h3 {   /* modificamos el h3 de la clase content */
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.content .elemento label{   /* modificamos el elemento de la clase content y label de la caja content*/
+    color: white;
+
+}
+
+.content .elemento input{     
+    width: 100%;
+    padding:10px 0;
+    color: azure;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 30px;
+}
+
+.content .elemento input[type="submit"]{
+    background-color: rgb(10, 8, 2);
+    border-radius: 5px;
+    border: none;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
